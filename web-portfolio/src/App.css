@@ -1,0 +1,10 @@
+body{
+  background-color: #04041f;
+  color: #FFFFFF;
+}
+.container{
+  display: flex;
+}
+.intro{
+  margin-left: 400px;
+}

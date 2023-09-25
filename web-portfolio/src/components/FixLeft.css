@@ -1,0 +1,92 @@
+.left-container{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 350px;
+    padding: 30px;
+    margin: 50px 0 50px 25px;
+    border: 1px solid white;
+    border-radius: 30px;
+    text-align: center;
+}
+.title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+img{
+    border-radius: 50%;
+    width: 260px;
+    align-self: center;
+    margin: 30px 0;
+}
+h3{
+    font-size: 16px;
+    font-style: italic;
+}
+.links{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 10px;
+}
+.left-container svg{
+    color: white;
+    font-size: 24px;
+}
+button{
+    background: none;
+    border: none;
+}
+.links button a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    border: 1px solid white;
+    border-radius: 100%;
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.25s;
+}
+.links button a:hover{
+    background: none;
+    background-color: white;
+    border: 1px solid white;
+}
+.links button a:hover > svg{
+    color: #04041f;
+}
+.email{
+    margin-top: 30px;
+    
+}
+.email a{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #04041f;
+    background-color: white;
+    padding: 15px;
+    border-radius: 25px;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+    border: 1px solid white;
+    transition: 0.25s;
+}
+.left-container .email svg{
+    color: #04041f;
+    font-size: 24px;
+}
+.email a:hover{
+    color: #ffffff;
+    background-color: #04041f;
+}
+.email a:hover > svg{
+    color: #ffffff;
+}
