@@ -4,7 +4,29 @@ body{
 }
 .container{
   display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
-.intro{
-  margin-left: 400px;
+#left-container{
+  width: 350px;
+}
+#main-container, #right-container{
+  display: flex;
+  flex-direction: column;
+}
+#main-container{
+  width: 750px;
+  margin-top: 60px;
+}
+.p-span{
+  margin-bottom: 50px;
+}
+.icon-span{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 130px;
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 50px;
 }

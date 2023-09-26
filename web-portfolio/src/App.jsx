@@ -6,8 +6,15 @@ function App() {
 
   return (
     <div className='container'>
-      <FixLeft/>
-      <Introducao/>
+      <div id="left-container">
+        <FixLeft/>
+      </div>
+      <div id="main-container">
+        <Introducao/>
+      </div>
+      <div id="right-container">
+        
+      </div>
     </div>
   )
 }
