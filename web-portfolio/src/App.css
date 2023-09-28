@@ -21,6 +21,12 @@ body{
 .p-span{
   margin-bottom: 50px;
 }
+.intro-container .icon-span{
+  margin-top: 0;
+}
+.sobre-container .icon-span{
+  width: 90px;
+}
 .icon-span{
   display: flex;
   justify-content: space-evenly;
@@ -29,4 +35,5 @@ body{
   padding: 10px;
   border: 1px solid white;
   border-radius: 50px;
+  margin-top: 180px;
 }

@@ -1,8 +1,24 @@
+.intro-container p{
+    color: #b9b5b5;
+}
+
 .index-module_type__E-SaG{
-    font-size: 47px !important;
-    height: 116px;
+    font-size: 78px !important;
+    height: 400px;
 }
 .bottom-phrase{
     margin-top: 20px;
+    line-height: 25px;
+    width: 500px;
+}
+.qtd-projects{
+    margin-top: 150px;
+}
+.qtd-projects h3{
+    color: #00C9FF;
+    font-size: 60px;
+}
+.qtd-projects p{
+    margin-top: 15px;
 }
   

@@ -1,0 +1,31 @@
+.sobre-container {
+    visibility: hidden;
+    transform: translateY(230px);
+    transition: opacity 2s ease, transform 2s ease;
+}
+.aparece {
+    visibility: visible;
+    transform: translateY(0);
+}
+
+.sobre-container p{
+    color: #b9b5b5;
+}
+.sobre-container .latim{
+    padding-left: 20px;
+    font-style: italic;
+    font-size: 40px;
+}
+.sobre-container .first-phrase {
+    font-size: 50px;
+    margin-top: 15px;
+}
+.sobre-container .second-phrase {
+    font-size: 50px;
+    padding-left: 17px;
+}
+.more-about p{
+    margin-top: 15px;
+    margin-left: 20px;
+    line-height: 25px;
+}
