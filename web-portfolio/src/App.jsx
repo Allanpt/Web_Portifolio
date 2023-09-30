@@ -2,7 +2,10 @@ import './App.css'
 import Curriculo from './components/Curriculo'
 import FixLeft from './components/FixLeft'
 import Introducao from './components/Introducao'
+import Portifolio from './components/Portifolio'
+import Servicos from './components/Servicos'
 import Sobre from './components/Sobre'
+import Stacks from './components/Stacks'
 
 function App() {
 
@@ -15,6 +18,9 @@ function App() {
         <Introducao/>
         <Sobre/>
         <Curriculo/>
+        <Servicos/>
+        <Stacks/>
+        <Portifolio/>
       </div>
       <div id="right-container">
         

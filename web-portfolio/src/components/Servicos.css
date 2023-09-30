@@ -1,0 +1,57 @@
+.services-container {
+    visibility: hidden;
+    transform: translateY(800px);
+    transition: opacity 2s ease, transform 2s ease;
+}
+.aparece {
+    visibility: visible;
+    transform: translateY(0);
+}
+.services-container h2{
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+.services-container h2 span{
+    color: #00C9FF;
+}
+.especializations{
+    position: relative;
+    padding: 40px;
+    border: 1px solid #6b6a6a;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    transition: 0.25s;
+}
+.especializations h4{
+   margin-bottom: 5px;
+}
+.especializations:hover{
+    border: 1px solid #00C9FF;
+}
+.especializations:hover h4{
+    text-decoration: underline #00C9FF ;
+    margin-bottom: 5px;
+}
+.especializations:last-child{
+    margin-bottom: 0px;
+}
+.especializations span{
+    position: absolute;
+    right: 40px;
+    color: #00C9FF;
+    font-size: 25px;
+}
+.especializations h3{
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+.especializations p{
+    line-height: 20px;
+    color: #b9b5b5;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+.especializations h4{
+    font-weight: 100;
+    font-size: 12px;
+}

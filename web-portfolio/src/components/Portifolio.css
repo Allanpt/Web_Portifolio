@@ -1,0 +1,185 @@
+.portifolio-container {
+    visibility: hidden;
+    transform: translateY(100px);
+    transition: opacity 2s ease, transform 2s ease;
+    margin-bottom: 100px;
+}
+.aparece {
+    visibility: visible;
+    transform: translateY(0);
+}
+.portifolio-container h2{
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+.portifolio-container h2 span{
+    color: #00C9FF;
+}
+.portifolio-line{
+    display: flex;
+    flex-wrap: wrap;
+}
+.project {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 200px;
+}
+.project a:hover > .tecnologies > .tec{
+    background-color: #04041f;
+    color: white;
+}
+.project a:hover > h2{
+    text-decoration: underline;
+    
+}
+.project h2{
+    position: absolute;
+    display: inline;
+    font-size: 25px;
+    color: white;
+    bottom: -70px;
+    left: 0px;
+    padding-bottom: 5px;
+    margin-bottom: 0px;
+}
+.img-portifolio{
+    border-radius: 30px;
+}
+.tecnologies{
+    position: absolute;
+    top: 30px;
+    right: 15px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+.tec{
+    padding: 10px 15px;
+    background-color: white;
+    color: #04041f;
+    border-radius: 20px;
+    transition: 0.25s;
+    font-weight: 300;
+    box-shadow: 5px 5px 5px #04041f;
+}
+.project.one{
+    width:100%;
+}
+img.landing-page{
+    width: 100%;
+}
+.project.two{
+    width: 58%;
+    margin-right: 15px;
+}
+img.devnote{
+    width: 100%;
+}
+.project.two .tecnologies {
+    bottom: 30px;
+    right: 15px;
+    top: auto;
+}
+.project.three{
+    width: 40%;
+    justify-content: flex-start;
+}
+img.form-avaliation{
+    width: 100%;
+    border-radius: 15px;
+}
+.project.three .tecnologies {
+    bottom: 150px;
+    right: 15px;
+    top: auto;
+}
+.project.three h2 {
+    position: absolute;
+    display: inline;
+    font-size: 25px;
+    color: white;
+    bottom: -70px;
+    left: 0px;
+    padding-bottom: 5px;
+    margin-bottom: 105px;
+}
+
+.project.four{
+    width: 100%;
+    justify-content: flex-start;
+    background-color: white;
+    border-radius: 30px;
+}
+img.jpa{
+    width: 100%;
+    border-radius: 15px;
+    background-color: white;
+}
+.project.four .tecnologies {
+    right: 15px;
+    top: 30px;
+}
+.project.four h2 {
+    position: absolute;
+    display: inline;
+    font-size: 25px;
+    color: white;
+    bottom: -70px;
+    left: 0px;
+    padding-bottom: 5px;
+    margin-bottom: 0px;
+}
+
+.project.five{
+    justify-content: flex-start;
+    background-color: white;
+    border-radius: 30px;
+    width: 58%;
+    margin-right: 15px;
+}
+img.mongo{
+    width: 100%;
+    background-color: white;
+}
+.project.five .tecnologies {
+    bottom: 30px;
+    right: 15px;
+    top: auto;
+}
+.project.five h2 {
+    position: absolute;
+    display: inline;
+    font-size: 25px;
+    color: white;
+    bottom: -100px;
+    left: 0px;
+    padding-bottom: 5px;
+    margin-bottom: 0px;
+}
+.project.six{
+    width: 40%;
+    justify-content: flex-start;
+}
+img.jdbc{
+    width: 100%;
+    border-radius: 15px;
+    background-color: white;
+}
+.project.six .tecnologies {
+    bottom: 30px;
+    right: 15px;
+    top: auto;
+}
+.project.six h2 {
+    position: absolute;
+    display: inline;
+    font-size: 25px;
+    color: white;
+    bottom: -130px;
+    left: 0px;
+    padding-bottom: 5px;
+}

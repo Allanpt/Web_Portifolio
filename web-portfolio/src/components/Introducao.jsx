@@ -25,7 +25,10 @@ const Introducao = () => {
           style={{ fontSize: '2em', display: 'inline-block' }}
           repeat={Infinity}
         />
-        <p className='bottom-phrase'>Faço projetos tanto de Front-end ( HTML, CSS e Javascript ) quanto no Back-end ( Java ). Utilizo também os 2 Frameworks mais famosos hoje para essas tecnologias - React e Spring Boot.</p>
+        <p className='bottom-phrase'>Autodidata, Disciplinado e Paciente. Fico esperançoso com o potencial que posso alcançar dentro da programação. Hoje eu desenvolvo projetos simples tanto de Front-end quanto no Back-end.  </p>
+        <p>#learningmachine <Icon className='icon' icon="twemoji:robot" /> <Icon className='icon' icon="noto:rocket" /> </p>
+        
+
         <div className="qtd-projects">
           <h3>20+</h3>
           <p>Projetos completos no GitHub</p>

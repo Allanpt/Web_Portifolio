@@ -1,7 +1,7 @@
 .sobre-container {
     visibility: hidden;
-    transform: translateY(230px);
-    transition: opacity 2s ease, transform 2s ease;
+    transform: translateY(800px);
+    transition: opacity 2s ease , transform 2s ease;
 }
 .aparece {
     visibility: visible;
