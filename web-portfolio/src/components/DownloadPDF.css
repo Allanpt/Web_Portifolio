@@ -1,0 +1,17 @@
+.pdf-btn a{
+    position: absolute;
+    right: 1px;
+    text-align: center;
+    color: white;
+    width: 110px;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.25s;
+}
+.pdf-btn a:hover{
+    color: #04041f ;
+    background-color: white;
+    border: 1px solid white;
+}

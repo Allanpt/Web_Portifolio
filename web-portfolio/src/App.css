@@ -15,8 +15,12 @@ body{
   flex-direction: column;
 }
 #main-container{
+  position: relative;
   width: 750px;
   margin-top: 60px;
+}
+#right-container{
+  width: 115px;
 }
 .p-span{
   margin-bottom: 50px;

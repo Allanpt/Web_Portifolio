@@ -1,6 +1,6 @@
 .portifolio-container {
     visibility: hidden;
-    transform: translateY(100px);
+    transform: translateY(800px);
     transition: opacity 2s ease, transform 2s ease;
     margin-bottom: 100px;
 }

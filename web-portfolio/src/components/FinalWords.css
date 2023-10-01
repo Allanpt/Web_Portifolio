@@ -1,0 +1,17 @@
+.final-words h2{
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+.final-words h2 span{
+    color: #00C9FF;
+}
+.final-words h3{
+    font-size: 40px;
+    margin-bottom: 40px;
+    font-style: normal;
+}
+.final-words {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 500px;
+}
