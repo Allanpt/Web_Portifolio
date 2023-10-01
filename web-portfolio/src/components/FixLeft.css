@@ -1,4 +1,4 @@
-.left-container{
+.container .left-container{
     position: fixed;
     display: flex;
     flex-direction: column;

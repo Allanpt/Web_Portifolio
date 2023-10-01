@@ -2,8 +2,9 @@
     position: fixed;
 }
 .right-container a{
+    position: relative;
     color: white;
-    gap: 15px;
+    cursor: pointer;
 }
 .icon-menu{
     display: flex;
@@ -13,4 +14,12 @@
     padding: 15px;
     border-radius: 25px;
     margin-top: 200px;
+}
+.hover-div{
+    position: absolute;
+    border: 1px solid white;
+    border-right: 0;
+    padding: 5px;
+    top: -7px;
+    right: 32px
 }

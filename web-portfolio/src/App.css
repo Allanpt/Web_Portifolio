@@ -10,6 +10,9 @@ body{
 #left-container{
   width: 350px;
 }
+.container #left-container span{
+  display: none;
+}
 #main-container, #right-container{
   display: flex;
   flex-direction: column;
@@ -41,3 +44,4 @@ body{
   border-radius: 50px;
   margin-top: 180px;
 }
+

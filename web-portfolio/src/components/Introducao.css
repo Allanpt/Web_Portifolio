@@ -9,7 +9,7 @@
 .bottom-phrase{
     margin-top: 20px;
     line-height: 25px;
-    width: 500px;
+    max-width: 500px;
 }
 .qtd-projects{
     margin-top: 150px;

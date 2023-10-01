@@ -1,0 +1,49 @@
+.container-respon .left-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 600px;
+    padding: 30px;
+    margin: 50px auto 50px auto;
+    border: 1px solid white;
+    border-radius: 30px;
+    text-align: center;
+}
+.container-respon .left-container .email a {
+    justify-content: center;
+}
+
+.container-respon #left-container{
+    width: auto;
+}
+.container-respon #main-container{
+    width: auto;
+    padding: 0 80px;
+}
+.container-respon .pdf-btn a {
+    position: absolute;
+    right: 120px;
+    text-align: center;
+    color: white;
+    width: 110px;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.25s;
+}
+#left-container span{
+    cursor: pointer;
+    position: fixed;
+    right: 28px;
+    top: 90px;
+    font-size: 35px;
+    animation: spin 2s linear infinite;
+    height: 35px;
+    align-self: center;
+}
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
