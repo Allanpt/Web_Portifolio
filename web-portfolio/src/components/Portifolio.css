@@ -74,7 +74,6 @@ img.landing-page{
 }
 .project.two{
     width: 58%;
-    margin-right: 15px;
 }
 img.devnote{
     width: 100%;
@@ -138,11 +137,10 @@ img.jpa{
     background-color: white;
     border-radius: 30px;
     width: 58%;
-    margin-right: 15px;
+    width: 100%;
 }
 img.mongo{
     width: 100%;
-    background-color: white;
 }
 .project.five .tecnologies {
     bottom: 30px;

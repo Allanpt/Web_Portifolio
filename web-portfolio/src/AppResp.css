@@ -81,21 +81,53 @@ body.menu-appear-active #main-container{
 .container-respon .stacks-line {
     justify-content: center;
 }
+/*Media query*/
 
 @media (max-width: 400px){
     .container-respon .left-container{
         padding: 15px;
     }
-}
-@media (max-width: 450px){
-
-    .container-respon .title h1{
-        font-size: 24px;
+    .container-respon #main-container p {
+        font-size: 10px;
+        line-height: 15px;
     }
-    .container-respon .title h3{
+    .container-respon img.allan {
+        width: 160px;
+    }
+    .container-respon .left-container .email a{
+        font-size: 10px;
+    }
+    .container-respon #main-container {
+        margin-top: 130px;
+    }
+    .container-respon .pdf-btn a{
+        left: 50%;
+        transform: translateX(-50%);
+        top: -88px;
+    }
+    .container-respon .index-module_type__E-SaG {
+        font-size: 28px;
+        height: 150px;
+    }
+    .container-respon .stack {
+        width: 90px;
+        height: 173px;
+        padding: 22px;
+        margin-right: 10px;
+        margin-bottom: 60px;
+    }
+    .container-respon .stack h3 {
         font-size: 12px;
-        text-align: end;
     }
+    .container-respon .stack p {
+        bottom: -25px;
+    }
+    .container-respon .tec {
+        padding: 3px 15px;
+    }
+
+}
+@media (min-width: 400px) and (max-width: 450px){
     .container-respon .pdf-btn a{
         right: 80px;
     }
@@ -103,50 +135,11 @@ body.menu-appear-active #main-container{
         font-size: 30px;
         height: 150px;
     }
-    .container-respon .sobre-container .latim{
-        font-size: 24px;
-    }
-    .container-respon .curriculum-container h2,
-    .container-respon .services-container h2,
-    .container-respon .stacks-container h2,
-    .container-respon .portifolio-container h2,
-    .container-respon .final-words h2{
-        font-size: 30px;
-    }
-    .container-respon #main-container .portifolio-container .portifolio-line .project .tecnologies {
-        position: absolute;
-        bottom: 10px;
-        top: auto;
-        right: 15px;
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: flex-end;
-    }
-}
-
-@media (min-width: 450px) and (max-width: 700px){
-    .container-respon .index-module_type__E-SaG{
-        font-size: 50px;
-        height: 315px;
-    }
-}
-@media (min-width: 450px) and (max-width: 910px){
-
-    .container-respon #main-container .portifolio-container .portifolio-line .project .tecnologies {
-        bottom: 30px;
-        right: 15px;
-        top: auto;
-    }
 
 }
-@media (max-width: 500px){
-
+@media (min-width: 400px) and (max-width: 500px){
     .container-respon img.allan {
-        border-radius: 50%;
         width: 200px;
-        align-self: center;
-        margin: 30px 0;
     }
     .container-respon .left-container .email a{
         font-size: 12px;
@@ -158,39 +151,95 @@ body.menu-appear-active #main-container{
         margin-right: 10px;
         margin-bottom: 125px;
     }
-    .container-respon .stack .icon {
-        font-size: 50px;
-    }
     .container-respon .stack h3 {
         text-align: center;
         margin-top: 10px;
         font-size: 14px;
     }
-    .container-respon .stack .icon.java {
-        width: 57px;
+}
+
+@media (max-width: 450px){
+
+    .container-respon .title h1{
+        font-size: 24px;
     }
-    .container-respon .stack .icon.spring {
-        font-size: 57px;
+    .container-respon .title h3{
+        font-size: 12px;
+        text-align: end;
+        width: 100px;
+    }
+    .container-respon .qtd-projects h3{
+        font-size: 24px;
+    }
+    .container-respon .sobre-container .latim{
+        font-size: 20px;
+    }
+    .container-respon .curriculum-container h2,
+    .container-respon .services-container h2,
+    .container-respon .stacks-container h2,
+    .container-respon .portifolio-container h2,
+    .container-respon .final-words h2{
+        font-size: 24px;
     }
     .container-respon #main-container .portifolio-container .portifolio-line .project .tecnologies {
-        font-size: 10px;
+        position: absolute;
+        bottom: 10px;
+        top: auto;
+        right: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-end;
     }
-}
-@media (max-width: 700px){
+    .container-respon .sobre-container h2{
+        font-size: 24px;
+        padding-left: 20px;
+    }
+    .container-respon .icon-span{
+        margin-top: 90px;
+    }
+    .container-respon .educations-experience h6{
+        font-size: 12px;
+    }
+    .container-respon .educations-experience h3{
+        font-size: 14px;
+    }
+    .container-respon .especializations h3{
+        font-size: 14px;
+    }
+    .container-respon #main-container .portifolio-container .portifolio-line .project h2 {
+        font-size: 16px;
+        color: white;
+        bottom: 0px;
+        left: 0px;
+        transform: translateX(0%) translateY(100%);
+        padding-bottom: 5px;
+        margin-bottom: 0px;
+    }
+    .container-respon #main-container .portifolio-container .portifolio-line .project{
+        width: 100%;
+        margin-bottom: 75px;
+    }
 
-    
+}
+
+@media (min-width: 450px) and (max-width: 700px){
+    .container-respon .index-module_type__E-SaG{
+        font-size: 50px;
+        height: 315px;
+    }
     .container-respon .sobre-container h2{
         font-size: 40px;
         padding-left: 20px;
     }
-    .container-respon p{
-        font-size: 16px;
-    }
-}
-@media (max-width: 910px){
 
-    .container-respon #main-container .portifolio-container .portifolio-line .project{
-        width: 100%;
+}
+@media (min-width: 450px) and (max-width: 910px){
+
+    .container-respon #main-container .portifolio-container .portifolio-line .project .tecnologies {
+        bottom: 30px;
+        right: 15px;
+        top: auto;
     }
     .container-respon #main-container .portifolio-container .portifolio-line .project h2 {
         position: absolute;
@@ -203,5 +252,28 @@ body.menu-appear-active #main-container{
         padding-bottom: 5px;
         margin-bottom: 0px;
     }
-      
+    .container-respon #main-container .portifolio-container .portifolio-line .project{
+        width: 100%;
+    }
+
+}
+@media (max-width: 500px){
+
+    .container-respon .stack .icon {
+        font-size: 50px;
+    }
+    .container-respon .stack .icon.java {
+        width: 57px;
+    }
+    .container-respon .stack .icon.spring {
+        font-size: 57px;
+    }
+    .container-respon #main-container .portifolio-container .portifolio-line .project .tecnologies {
+        font-size: 10px;
+    }
+}
+@media (max-width: 700px){
+    .container-respon p{
+        font-size: 16px;
+    }
 }
