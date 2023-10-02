@@ -1,7 +1,7 @@
 import './Portifolio.css'
 import { Icon } from '@iconify/react';
 import { useState, useEffect } from 'react';
-import LandingPage from '../../public/Landing-page.JPG'
+import LandingPage from '../../public/Landing-page.jpg'
 import GifForm from '../../public/gif-form.gif'
 import GifDev from '../../public/gif-devnote.gif'
 import JDBC from '../../public/Jdbc-project.png'
