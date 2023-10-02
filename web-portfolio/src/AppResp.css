@@ -9,7 +9,8 @@
     border-radius: 30px;
     text-align: center;
 }
-.container-respon .left-container .email a {
+.container-respon .email a {
+    font-size: 22px;
     justify-content: center;
 }
 
@@ -77,12 +78,113 @@ body.menu-appear-active #main-container{
     z-index: 1;
     display: none;
 }
-  
-@media (max-width: 700px){
+.container-respon .stacks-line {
+    justify-content: center;
+}
 
+@media (max-width: 400px){
+    .container-respon .left-container{
+        padding: 15px;
+    }
+}
+@media (max-width: 450px){
+
+    .container-respon .title h1{
+        font-size: 24px;
+    }
+    .container-respon .title h3{
+        font-size: 12px;
+        text-align: end;
+    }
+    .container-respon .pdf-btn a{
+        right: 80px;
+    }
+    .container-respon .index-module_type__E-SaG {
+        font-size: 30px;
+        height: 150px;
+    }
+    .container-respon .sobre-container .latim{
+        font-size: 24px;
+    }
+    .container-respon .curriculum-container h2,
+    .container-respon .services-container h2,
+    .container-respon .stacks-container h2,
+    .container-respon .portifolio-container h2,
+    .container-respon .final-words h2{
+        font-size: 30px;
+    }
+    .container-respon #main-container .portifolio-container .portifolio-line .project .tecnologies {
+        position: absolute;
+        bottom: 10px;
+        top: auto;
+        right: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-end;
+    }
+}
+
+@media (min-width: 450px) and (max-width: 700px){
     .container-respon .index-module_type__E-SaG{
         font-size: 50px;
         height: 315px;
+    }
+}
+@media (min-width: 450px) and (max-width: 910px){
+
+    .container-respon #main-container .portifolio-container .portifolio-line .project .tecnologies {
+        bottom: 30px;
+        right: 15px;
+        top: auto;
+    }
+
+}
+@media (max-width: 500px){
+
+    .container-respon img.allan {
+        border-radius: 50%;
+        width: 200px;
+        align-self: center;
+        margin: 30px 0;
+    }
+    .container-respon .left-container .email a{
+        font-size: 12px;
+    }
+    .container-respon .stack {
+        width: 100px;
+        height: 180px;
+        padding: 30px;
+        margin-right: 10px;
+        margin-bottom: 125px;
+    }
+    .container-respon .stack .icon {
+        font-size: 50px;
+    }
+    .container-respon .stack h3 {
+        text-align: center;
+        margin-top: 10px;
+        font-size: 14px;
+    }
+    .container-respon .stack .icon.java {
+        width: 57px;
+    }
+    .container-respon .stack .icon.spring {
+        font-size: 57px;
+    }
+    .container-respon #main-container .portifolio-container .portifolio-line .project .tecnologies {
+        font-size: 10px;
+    }
+}
+@media (max-width: 700px){
+
+    
+    .container-respon .sobre-container h2{
+        font-size: 40px;
+        padding-left: 20px;
+    }
+    .container-respon p{
+        font-size: 16px;
     }
 }
 @media (max-width: 910px){
@@ -95,9 +197,11 @@ body.menu-appear-active #main-container{
         display: inline;
         font-size: 25px;
         color: white;
-        bottom: -70px;
+        bottom: 0px;
         left: 0px;
+        transform: translateX(0%) translateY(100%);
         padding-bottom: 5px;
         margin-bottom: 0px;
     }
+      
 }
