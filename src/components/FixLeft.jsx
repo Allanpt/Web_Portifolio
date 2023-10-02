@@ -1,6 +1,6 @@
 import './FixLeft.css'
 import { Icon } from '@iconify/react';
-
+import ImagemDoAllan from '../../public/Imagem do Allan.jpg'
 const FixLeft = () => {
   return (
     <div className='left-container'>
@@ -8,7 +8,7 @@ const FixLeft = () => {
             <h1>Allan</h1>
             <h3>FullStack Developer</h3>
         </div>
-        <img className='allan' src="/Imagem do Allan.jpg" alt="foto do allan" />
+        <img className='allan' src={ImagemDoAllan} alt="foto do allan" />
         <h2>Campinas, SP</h2>
         <div className="links">
             <button>
