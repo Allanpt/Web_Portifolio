@@ -163,11 +163,11 @@ img.mongo{
 .project.six{
     width: 40%;
     justify-content: flex-start;
+    background-color: white;
+    border-radius: 15px;
 }
 img.jdbc{
     width: 100%;
-    border-radius: 15px;
-    background-color: white;
 }
 .project.six .tecnologies {
     bottom: 30px;

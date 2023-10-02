@@ -22,7 +22,7 @@ const Introducao = () => {
           ]}
           wrapper="span"
           speed={50}
-          style={{ fontSize: '2em', display: 'inline-block' }}
+          style={{display: 'inline-block' }}
           repeat={Infinity}
         />
         <p className='bottom-phrase'>Autodidata, Disciplinado e Paciente. Fico esperançoso com o potencial que posso alcançar dentro da programação. Hoje eu desenvolvo projetos simples tanto de Front-end quanto no Back-end.  </p>

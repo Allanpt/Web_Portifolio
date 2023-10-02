@@ -15,6 +15,7 @@
 
 .container-respon #left-container{
     width: auto;
+    padding: 0 85px;
 }
 .container-respon #main-container{
     width: auto;
@@ -66,7 +67,7 @@ body.menu-appear-active #main-container{
 @keyframes spin {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
-  }
+}
 .overlay {
     position: fixed;
     top: 0;
@@ -77,3 +78,26 @@ body.menu-appear-active #main-container{
     display: none;
 }
   
+@media (max-width: 700px){
+
+    .container-respon .index-module_type__E-SaG{
+        font-size: 50px;
+        height: 315px;
+    }
+}
+@media (max-width: 910px){
+
+    .container-respon #main-container .portifolio-container .portifolio-line .project{
+        width: 100%;
+    }
+    .container-respon #main-container .portifolio-container .portifolio-line .project h2 {
+        position: absolute;
+        display: inline;
+        font-size: 25px;
+        color: white;
+        bottom: -70px;
+        left: 0px;
+        padding-bottom: 5px;
+        margin-bottom: 0px;
+    }
+}

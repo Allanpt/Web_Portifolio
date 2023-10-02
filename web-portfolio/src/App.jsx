@@ -61,7 +61,7 @@ function App() {
         ) : (
           <div className="menu-appear">
             <span onClick={handleMenuVisible}><Icon icon="ep:tools" /></span>
-            <ToolBar isVisible={!menuVisible}/>
+            <ToolBar isVisible={!menuVisible} handleMenuVisible={handleMenuVisible}/>
           </div>
         )}
         
