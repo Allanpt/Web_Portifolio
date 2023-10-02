@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import './FixRight.css'
 import { Icon } from '@iconify/react';
+import './FixRight.css'
 const FixRight = () => {
 
 

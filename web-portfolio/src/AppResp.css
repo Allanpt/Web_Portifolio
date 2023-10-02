@@ -37,13 +37,43 @@
     position: fixed;
     right: 28px;
     top: 90px;
+    z-index: 1;
     font-size: 35px;
     animation: spin 2s linear infinite;
     height: 35px;
     align-self: center;
 }
+#left-container .menu-appear span {
+    cursor: pointer;
+    position: fixed;
+    z-index: 3;
+    right: 28px;
+    top: 90px;
+    font-size: 35px;
+    animation: spin 2s linear infinite;
+    height: 35px;
+    align-self: center;
+}
+body.menu-appear-active{
+    background-color: rgba(4, 4, 31, 0.9);
+}
+body.menu-appear-active .left-container{
+    opacity: 0.5;
+}
+body.menu-appear-active #main-container{
+    opacity: 0.5;
+}
 @keyframes spin {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
   }
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: none;
+}
   

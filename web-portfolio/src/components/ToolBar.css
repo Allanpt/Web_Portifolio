@@ -1,0 +1,40 @@
+.tool-bar{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 1);
+    height: 100%;
+    position: fixed;
+    right: 0px;
+    top: -1px;
+    padding-left: 26px;
+    padding-right: 176px;
+    max-width: 402px;
+    z-index: 2;
+    transform: translateX(100%);
+    transition: transform 0.3s ease;
+}
+.toolbar-slide {
+    transform: translateX(0%);
+    
+}
+.tool-bar .menu-icons{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.tool-bar span{
+    cursor: pointer;
+    position: fixed;
+    right: 28px;
+    top: 90px;
+    font-size: 35px;
+    animation: spin 2s linear infinite;
+    height: 35px;
+    align-self: center;
+}
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+
