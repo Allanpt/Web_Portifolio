@@ -29,7 +29,7 @@ const Portifolio = () => {
         <div className="portifolio-line">
             <div className="project one">
                 <a href="https://allanpt.github.io/Mais1Code_Project_Landing_Page/" target="_blank" rel="noopener noreferrer">
-                    <img className='img-portifolio landing-page' src="/Landing-page.JPG" alt="Landing page" />
+                    <img className='img-portifolio landing-page' src="../../public/Landing-page.JPG" alt="Landing page" />
                     <div className="tecnologies">
                         <div className="tec">HTML</div>
                         <div className="tec">CSS</div>
