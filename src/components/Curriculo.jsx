@@ -29,7 +29,7 @@ const Curriculo = () => {
         <div className="educations-experience">
             <div className="title-hover">
                 <span><Icon icon="bi:fire" /></span>
-                <h6>2023 - Presente</h6>
+                <h6 className='bold'>2023 - Presente</h6>
             </div>
             <h3>Formação Front-end - HTML, CSS, JavaScript, React e + (cursando)</h3>
             <p>Udemy Academy - Matheus Battisti</p>

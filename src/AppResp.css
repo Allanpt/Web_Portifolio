@@ -16,11 +16,11 @@
 
 .container-respon #left-container{
     width: auto;
-    padding: 0 85px;
+    padding: 0 30px;
 }
 .container-respon #main-container{
     width: auto;
-    padding: 0 80px;
+    padding: 0 40px;
 }
 .container-respon .pdf-btn a {
     position: absolute;
@@ -88,14 +88,14 @@ body.menu-appear-active #main-container{
         padding: 15px;
     }
     .container-respon #main-container p {
-        font-size: 10px;
-        line-height: 15px;
+        font-size: 16px;
+        line-height: 22px;
     }
     .container-respon img.allan {
         width: 160px;
     }
     .container-respon .left-container .email a{
-        font-size: 10px;
+        font-size: 22px;
     }
     .container-respon #main-container {
         margin-top: 130px;
@@ -106,18 +106,18 @@ body.menu-appear-active #main-container{
         top: -88px;
     }
     .container-respon .index-module_type__E-SaG {
-        font-size: 28px;
+        font-size: 32px;
         height: 150px;
     }
     .container-respon .stack {
-        width: 90px;
+        width: 130px;
         height: 173px;
         padding: 22px;
         margin-right: 10px;
         margin-bottom: 60px;
     }
     .container-respon .stack h3 {
-        font-size: 12px;
+        font-size: 14px;
     }
     .container-respon .stack p {
         bottom: -25px;
@@ -164,7 +164,7 @@ body.menu-appear-active #main-container{
         font-size: 24px;
     }
     .container-respon .title h3{
-        font-size: 12px;
+        font-size: 14px;
         text-align: end;
         width: 100px;
     }
@@ -199,10 +199,14 @@ body.menu-appear-active #main-container{
         margin-top: 90px;
     }
     .container-respon .educations-experience h6{
-        font-size: 12px;
+        font-size: 20px;
     }
+    .container-respon .title-hover h6.bold {
+        text-decoration: underline;
+    }
+      
     .container-respon .educations-experience h3{
-        font-size: 14px;
+        font-size: 18px;
     }
     .container-respon .especializations h3{
         font-size: 14px;

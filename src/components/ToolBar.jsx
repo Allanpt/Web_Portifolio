@@ -22,31 +22,31 @@ const ToolBar = ({isVisible, handleMenuVisible}) => {
                 </a>
             </div>
             <div className="icon">
-                <a onClick={() => {handleMenuVisible(); handleScrollToPosition(1375)}}>
+                <a onClick={() => {handleMenuVisible(); handleScrollToPosition(1417)}}>
                     <Icon icon="line-md:account"/>
                     <p>Sobre</p>
                 </a>
             </div>
             <div className="icon">
-                <a onClick={() => {handleMenuVisible(); handleScrollToPosition(1819)}}>
+                <a onClick={() => {handleMenuVisible(); handleScrollToPosition(1883)}}>
                     <Icon icon="ep:suitcase-line" />
                     <p>Currículo</p>
                 </a>
             </div>
             <div className="icon">
-                <a onClick={() => {handleMenuVisible(); handleScrollToPosition(2992)}}>
+                <a onClick={() => {handleMenuVisible(); handleScrollToPosition(3175)}}>
                     <Icon icon="icon-park-outline:code-laptop" />
                     <p>Serviços</p>
                 </a>
             </div>
             <div className="icon">
-                <a onClick={() => {handleMenuVisible(); handleScrollToPosition(3732)}}>
+                <a onClick={() => {handleMenuVisible(); handleScrollToPosition(3970)}}>
                     <Icon icon="ph:stack-overflow-logo" />
                     <p>Stacks</p>
                 </a>
             </div>
             <div className="icon">
-                <a onClick={() => {handleMenuVisible(); handleScrollToPosition(5087)}}>
+                <a onClick={() => {handleMenuVisible(); handleScrollToPosition(5318)}}>
                     <Icon icon="bx:spreadsheet" />
                     <p>Portifólio</p>
                 </a>
